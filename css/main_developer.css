@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    background-image: url("/Img/background.png");
+}
+main h1{
+    font-size: 80px;
+    margin:auto;
+    letter-spacing: 5px;
+}
+ main .cardProfile{
+    display: flex;
+    background-color:#f7f7f7;
+    width: 90%;
+    height:600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    box-shadow: 17px 17px 40px -5px rgba(92,90,92,0.71);
+}
+
+.cardProfile .imgContainer{
+    width: 430px;
+    height: 430px;
+    margin: 80px 40px;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.content{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .5px; 
+    width: 60%;
+    height: 90%;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+}
+.content h3,h4,p{
+    margin: 10px 10px;
+}
+
+@media only screen and (max-width: 600px){
+    main h1{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    main .cardProfile{
+        flex-direction: column;
+        width: 90%;
+        height:700px;
+        margin: 50px auto;
+    }
+    .cardProfile .imgContainer{
+        width: 60%;
+        height: 46.5%;
+        margin: 10px auto;
+    }
+    .imgContainer img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content{
+        width: 90%;
+        height: 50%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .content h3,h4,p{
+        font-size: 15px;
+    }
+
+}
+
+

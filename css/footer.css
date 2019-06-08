@@ -1,0 +1,13 @@
+footer{
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+footer h5{
+    margin-top: 3px;
+    color: lightgray;
+}

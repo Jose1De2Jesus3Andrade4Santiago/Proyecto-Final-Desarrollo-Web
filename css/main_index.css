@@ -1,0 +1,99 @@
+main{
+    background-image: url("/Img/background.png");
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main h1{
+    font-size: 60px; 
+    margin-top: 45px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+}
+
+main section{
+    width: 95%;
+    height: 450px;
+    background-color: red;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    background-color:#e9eff2;
+}
+main #s1{
+    text-align: center;
+}
+main #s1 div{
+    background-color: #7f74f2;
+    margin: auto;
+    border-radius: 5px;
+    width: 32%;
+    height: 98%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#s1 div h2{
+    font-size: 30px;
+    margin: 5px auto;
+}
+#s1 div h3{
+    font-size: 25px;
+    margin:  5px auto;
+}
+#s1 div p{
+    font-size: 20px;
+    margin: auto;
+}
+#s1 ul{
+    display: flex;
+    flex-direction: column;
+}
+#s1 ul li{
+    list-style: none;
+    margin : 3px auto;
+}
+
+main #s2 div{
+    background-color: #7f74f2;
+    margin: auto;
+    border-radius: 5px;
+    width: 48%;
+    height: 98%;
+}
+#s2 div h2{
+    font-size: 30px;
+    margin: 5px auto;
+    color: white;
+    font-family: sans-serif;
+}
+#s2 div img {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    margin: auto;
+}
+@media only screen and (max-width: 600px){
+ 
+    main section{
+        flex-direction: column;
+        height: 1200px;
+        width: 95%;
+    }
+    main #s1 div{
+        width: 98%;
+        height: 32%;
+    }
+
+    main #s2 div{
+        width: 98%;
+        height: 48%;
+    }
+
+    main h1{
+        font-size: 60px; 
+    }
+}
+

@@ -1,0 +1,5 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  name: loquesea
+  memory: 56M
+random-route: true
