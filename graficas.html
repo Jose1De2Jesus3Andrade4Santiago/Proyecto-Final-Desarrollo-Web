@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graficas</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles css/layout.css">
+    <link rel="stylesheet" href="styles css/nav.css">
+    <link rel="stylesheet" href="styles css/d3SecondG.css">
+    <link rel="stylesheet" href="styles css/header.css">
+    <link rel="stylesheet" href="styles css/footer.css">
+    <link rel="stylesheet" href="styles css/graficas.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="liquidFillGauge.js" language="JavaScript"></script>
+    <script src="js/liquit.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="shortcut icon" href="Img/favio.ico" type="image/x-icon">
+</head>
+<body>
+        <header>
+            <a href="index.html">
+                    <img src="/Img/logo.png" alt=""> 
+                        <h3>Mac</h3>
+            </a>
+        </header>
+     
+            <nav>
+                <div class="caja">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </div>
+                <div class="caja">
+                    <a href="developers.html">
+                        <i class="fas fa-users"></i> Developers
+                    </a>
+                </div>
+                <div class="caja">
+                        <a href="animaciones.html">
+                            <i class="fas fa-grin-stars"></i>Canvas and Svg
+                        </a>
+                </div>
+                <div class="caja">
+                        <a href="graficas.html">
+                            <i class="fas fa-chart-bar"></i> Charts
+                        </a>
+                </div>
+            </nav>
+            <main id="graficas">
+
+                <h3>GRAFICAS CON PLOTLY</h3>
+                <section id="section1">
+                    
+                        <div class="btnContainer">
+                            <button onclick="drawChartPlotly1()"> Grafica 1</button>
+                            <button onclick="drawChartPlotly2()"> Grafica 2</button>
+                        </div>
+
+                        <div id="grafica1" class="grafica" >
+
+                        </div>
+                </section>
+                
+                <h3>GRAFICAS CON D3.JS</h3>
+                <section >
+                        <div class="grafica" id="grafica2">
+                            <svg id="svg1"></svg>
+                            <svg id="svg2"></svg>
+                            <svg id="svg3"></svg>
+                        </div>
+                       
+                </section>
+
+                <section id="grafica3">
+                        
+                </section>
+
+                <h3>GRAFICAS CON GOOGLE CHARTS</h3>
+                <section >
+                        <div class="grafica" id="grafica5"></div>
+                </section>
+
+                <section >
+                        <div class="grafica" id="grafica6"></div>
+                </section>
+
+            </main>
+              
+            <footer>
+                 <h5>Copyright © Andrade santiago José de Jesús </h5>
+                 <h5>Todos los derechos reservados.</h5>
+            </footer>
+            <script src="js/script_graficas.js"></script>
+</body>
+</html>
