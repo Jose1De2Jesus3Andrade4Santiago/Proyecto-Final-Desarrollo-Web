@@ -1,5 +1,5 @@
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack
-  name: loquesea
+  name: PaginaparaKarencita
   memory: 56M
 random-route: true
